@@ -1,0 +1,67 @@
+baseURL: 'https://omoshiroi.club/'
+languageCode: 'it-IT'
+title: Omoshiroi Club
+theme: 'PaperMod'
+defaultContentLanguage: it
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+menu:
+  main:
+    - name: Ricerca
+      url: search/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+  env: production
+  description: Omoshiroi Club, un club interessante per tutti
+  author: Franz Hernandez
+
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+#  comments: true
+#  images: [ "papermod-cover.png" ]
+
+  DateFormat: "02/01/2006"
+
+  homeInfoParams:
+    Title: "Benvenuto su Omoshiroi Club!"
+    Content: |
+      **'Omoshiroi Club'** rappresenta un'accogliente comunità aperta a tutti, dove si affrontano una vasta gamma di argomenti, dalla finanza alla Formula 1, dal mondo cinematografico all'universo dei manga e degli anime. 
+      
+      - In pratica, tutto ciò che mi affascina quando sento il desiderio di condividere i miei pensieri per iscritto.
+
+      - Perché **'Omoshiroi Club'**? 
+      
+      - Il motivo è piuttosto semplice. Nutro una profonda passione per la cultura giapponese e desideravo adottare un nome che catturasse l'essenza di conversare su questioni di interesse. La parola giapponese 'omoshiroi' traduce esattamente questa idea: 'interessante'. 
+      
+      - Al momento, il blog è un progetto a cui contribuisco da solo, ma nel futuro lo immagino come un luogo di aggregazione, in cui tutti possono partecipare e confrontarsi su una vasta gamma di argomenti, proprio come in un club.
