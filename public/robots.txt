@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://omoshiroi.club/sitemap.xml
